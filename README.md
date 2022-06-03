@@ -1,0 +1,27 @@
+# DemiseCC
+credits to sparkyz im just putting it on github cause why not
+ 
+-- made by cayden, and sparkyz
+
+-- target aim
+     getgenv().enabled = true
+     getgenv().key = "q"
+     getgenv().prediction = 0.127
+     getgenv().aimpart = "UpperTorso"
+     getgenv().notifications = true
+     getgenv().fovcolor = Color3.fromRGB(35, 50, 225)
+     getgenv().fov = true
+     getgenv().dotcolor = Color3.fromRGB(35, 50, 225)
+     getgenv().transparency = 1
+     getgenv().thickness = 5
+-- camlock
+     getgenv().CamlockPrediction = 0.13838
+     getgenv().AimLockzPart = "HumanoidRootPart"
+     getgenv().CamKey = "C"
+     getgenv().DisableKey = "P"
+-- camlock fov sets
+     getgenv().FOV = true
+     getgenv().ShowFOV = false
+     getgenv().FOVSize = 45
+-- loadstring
+loadstring(game:HttpGet("https://pastebin.com/raw/9Qg6U7x8"))()
